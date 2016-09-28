@@ -1,0 +1,140 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.14.20
+3 info using node@v4.4.0
+4 verbose readDependencies loading dependencies from /Users/liudi/Documents/web/fis3-react/fis3-react-demo/package.json
+5 warn package.json use-react@1.0.0 No repository field.
+6 verbose install where, deps [ '/Users/liudi/Documents/web/fis3-react/fis3-react-demo',
+6 verbose install   [ 'antd',
+6 verbose install     'fis-parser-babel-5.x',
+6 verbose install     'fis-parser-less',
+6 verbose install     'fis3-hook-commonjs',
+6 verbose install     'fis3-hook-node_modules',
+6 verbose install     'fis3-postpackager-loader',
+6 verbose install     'jquery',
+6 verbose install     'react',
+6 verbose install     'react-dom',
+6 verbose install     'jmui' ] ]
+7 verbose install where, peers [ '/Users/liudi/Documents/web/fis3-react/fis3-react-demo', [] ]
+8 verbose installManyTop reading for lifecycle /Users/liudi/Documents/web/fis3-react/fis3-react-demo/package.json
+9 info preinstall use-react@1.0.0
+10 verbose installManyTop reading scoped package data from /Users/liudi/Documents/web/fis3-react/fis3-react-demo/node_modules/antd/package.json
+11 verbose installManyTop reading scoped package data from /Users/liudi/Documents/web/fis3-react/fis3-react-demo/node_modules/fis-parser-babel-5.x/package.json
+12 verbose installManyTop reading scoped package data from /Users/liudi/Documents/web/fis3-react/fis3-react-demo/node_modules/fis-parser-less/package.json
+13 verbose installManyTop reading scoped package data from /Users/liudi/Documents/web/fis3-react/fis3-react-demo/node_modules/fis3-hook-commonjs/package.json
+14 verbose installManyTop reading scoped package data from /Users/liudi/Documents/web/fis3-react/fis3-react-demo/node_modules/fis3-hook-node_modules/package.json
+15 verbose installManyTop reading scoped package data from /Users/liudi/Documents/web/fis3-react/fis3-react-demo/node_modules/fis3-postpackager-loader/package.json
+16 verbose installManyTop reading scoped package data from /Users/liudi/Documents/web/fis3-react/fis3-react-demo/node_modules/jmui/package.json
+17 verbose installManyTop reading scoped package data from /Users/liudi/Documents/web/fis3-react/fis3-react-demo/node_modules/jquery/package.json
+18 verbose installManyTop reading scoped package data from /Users/liudi/Documents/web/fis3-react/fis3-react-demo/node_modules/process/package.json
+19 verbose installManyTop reading scoped package data from /Users/liudi/Documents/web/fis3-react/fis3-react-demo/node_modules/react/package.json
+20 verbose installManyTop reading scoped package data from /Users/liudi/Documents/web/fis3-react/fis3-react-demo/node_modules/react-addons-css-transition-group/package.json
+21 verbose installManyTop reading scoped package data from /Users/liudi/Documents/web/fis3-react/fis3-react-demo/node_modules/react-dom/package.json
+22 info package.json fis3-hook-commonjs@0.1.23 license should be a valid SPDX license expression
+23 info package.json fis3-hook-node_modules@2.2.8 No repository field.
+24 info package.json fis3-postpackager-loader@2.0.4 license should be a valid SPDX license expression
+25 info package.json process@0.11.9 process is also the name of a node core module.
+26 verbose readDependencies loading dependencies from /Users/liudi/Documents/web/fis3-react/fis3-react-demo/package.json
+27 verbose targetResolver reading package data from /Users/liudi/Documents/web/fis3-react/fis3-react-demo/node_modules/antd/package.json
+28 verbose targetResolver reading package data from /Users/liudi/Documents/web/fis3-react/fis3-react-demo/node_modules/fis-parser-babel-5.x/package.json
+29 verbose targetResolver reading package data from /Users/liudi/Documents/web/fis3-react/fis3-react-demo/node_modules/fis-parser-less/package.json
+30 verbose targetResolver reading package data from /Users/liudi/Documents/web/fis3-react/fis3-react-demo/node_modules/fis3-hook-commonjs/package.json
+31 verbose targetResolver reading package data from /Users/liudi/Documents/web/fis3-react/fis3-react-demo/node_modules/fis3-hook-node_modules/package.json
+32 verbose targetResolver reading package data from /Users/liudi/Documents/web/fis3-react/fis3-react-demo/node_modules/fis3-postpackager-loader/package.json
+33 verbose targetResolver reading package data from /Users/liudi/Documents/web/fis3-react/fis3-react-demo/node_modules/jmui/package.json
+34 verbose targetResolver reading package data from /Users/liudi/Documents/web/fis3-react/fis3-react-demo/node_modules/jquery/package.json
+35 verbose targetResolver reading package data from /Users/liudi/Documents/web/fis3-react/fis3-react-demo/node_modules/process/package.json
+36 verbose targetResolver reading package data from /Users/liudi/Documents/web/fis3-react/fis3-react-demo/node_modules/react/package.json
+37 verbose targetResolver reading package data from /Users/liudi/Documents/web/fis3-react/fis3-react-demo/node_modules/react-addons-css-transition-group/package.json
+38 verbose targetResolver reading package data from /Users/liudi/Documents/web/fis3-react/fis3-react-demo/node_modules/react-dom/package.json
+39 verbose already installed skipping react@^15.3.2 /Users/liudi/Documents/web/fis3-react/fis3-react-demo
+40 verbose already installed skipping react-dom@^15.3.2 /Users/liudi/Documents/web/fis3-react/fis3-react-demo
+41 silly cache add args [ 'jmui@^0.14.7', null ]
+42 verbose cache add spec jmui@^0.14.7
+43 silly cache add parsed spec Result {
+43 silly cache add   raw: 'jmui@^0.14.7',
+43 silly cache add   scope: null,
+43 silly cache add   name: 'jmui',
+43 silly cache add   rawSpec: '^0.14.7',
+43 silly cache add   spec: '>=0.14.7 <0.15.0',
+43 silly cache add   type: 'range' }
+44 silly addNamed jmui@>=0.14.7 <0.15.0
+45 verbose addNamed ">=0.14.7 <0.15.0" is a valid semver range for jmui
+46 silly addNameRange { name: 'jmui', range: '>=0.14.7 <0.15.0', hasData: false }
+47 silly mapToRegistry name jmui
+48 silly mapToRegistry using default registry
+49 silly mapToRegistry registry https://registry.npmjs.org/
+50 silly mapToRegistry uri https://registry.npmjs.org/jmui
+51 verbose addNameRange registry:https://registry.npmjs.org/jmui not in flight; fetching
+52 verbose already installed skipping antd@^1.11.2 /Users/liudi/Documents/web/fis3-react/fis3-react-demo
+53 verbose already installed skipping fis-parser-babel-5.x@^1.4.0 /Users/liudi/Documents/web/fis3-react/fis3-react-demo
+54 verbose already installed skipping fis-parser-less@^0.1.3 /Users/liudi/Documents/web/fis3-react/fis3-react-demo
+55 verbose already installed skipping fis3-hook-commonjs@^0.1.23 /Users/liudi/Documents/web/fis3-react/fis3-react-demo
+56 verbose already installed skipping fis3-hook-node_modules@^2.2.8 /Users/liudi/Documents/web/fis3-react/fis3-react-demo
+57 verbose already installed skipping fis3-postpackager-loader@^2.0.4 /Users/liudi/Documents/web/fis3-react/fis3-react-demo
+58 verbose already installed skipping jquery@^3.1.1 /Users/liudi/Documents/web/fis3-react/fis3-react-demo
+59 verbose request uri https://registry.npmjs.org/jmui
+60 verbose request no auth needed
+61 info attempt registry request try #1 at 15:35:59
+62 verbose request id 706441b42c667d5a
+63 verbose etag "56M4PH8PTHQ919KTHIRWZFQZL"
+64 http request GET https://registry.npmjs.org/jmui
+65 http 304 https://registry.npmjs.org/jmui
+66 verbose headers { date: 'Wed, 28 Sep 2016 07:35:59 GMT',
+66 verbose headers   via: '1.1 varnish',
+66 verbose headers   'cache-control': 'max-age=300',
+66 verbose headers   etag: '"56M4PH8PTHQ919KTHIRWZFQZL"',
+66 verbose headers   age: '160',
+66 verbose headers   connection: 'keep-alive',
+66 verbose headers   'x-served-by': 'cache-itm7425-ITM',
+66 verbose headers   'x-cache': 'HIT',
+66 verbose headers   'x-cache-hits': '3',
+66 verbose headers   'x-timer': 'S1475048159.949093,VS0,VE0',
+66 verbose headers   vary: 'Accept-Encoding' }
+67 silly get cb [ 304,
+67 silly get   { date: 'Wed, 28 Sep 2016 07:35:59 GMT',
+67 silly get     via: '1.1 varnish',
+67 silly get     'cache-control': 'max-age=300',
+67 silly get     etag: '"56M4PH8PTHQ919KTHIRWZFQZL"',
+67 silly get     age: '160',
+67 silly get     connection: 'keep-alive',
+67 silly get     'x-served-by': 'cache-itm7425-ITM',
+67 silly get     'x-cache': 'HIT',
+67 silly get     'x-cache-hits': '3',
+67 silly get     'x-timer': 'S1475048159.949093,VS0,VE0',
+67 silly get     vary: 'Accept-Encoding' } ]
+68 verbose etag https://registry.npmjs.org/jmui from cache
+69 verbose get saving jmui to /Users/liudi/.npm/registry.npmjs.org/jmui/.cache.json
+70 verbose correctMkdir /Users/liudi/.npm correctMkdir not in flight; initializing
+71 silly addNameRange number 2 { name: 'jmui', range: '>=0.14.7 <0.15.0', hasData: true }
+72 silly addNameRange versions [ 'jmui',
+72 silly addNameRange   [ '0.1.3', '0.1.4', '0.1.5', '0.1.6', '0.1.7', '0.1.8' ] ]
+73 verbose stack Error: No compatible version found: jmui@'>=0.14.7 <0.15.0'
+73 verbose stack Valid install targets:
+73 verbose stack ["0.1.3","0.1.4","0.1.5","0.1.6","0.1.7","0.1.8"]
+73 verbose stack
+73 verbose stack     at installTargetsError (/usr/local/lib/node_modules/npm/lib/cache/add-named.js:284:12)
+73 verbose stack     at next (/usr/local/lib/node_modules/npm/lib/cache/add-named.js:262:19)
+73 verbose stack     at setData (/usr/local/lib/node_modules/npm/lib/cache/add-named.js:236:5)
+73 verbose stack     at RES (/usr/local/lib/node_modules/npm/node_modules/inflight/inflight.js:23:14)
+73 verbose stack     at f (/usr/local/lib/node_modules/npm/node_modules/once/once.js:17:25)
+73 verbose stack     at fixName (/usr/local/lib/node_modules/npm/lib/cache/add-named.js:29:5)
+73 verbose stack     at saved (/usr/local/lib/node_modules/npm/lib/cache/caching-client.js:173:7)
+73 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:210:7
+73 verbose stack     at FSReqWrap.oncomplete (fs.js:82:15)
+74 verbose cwd /Users/liudi/Documents/web/fis3-react/fis3-react-demo
+75 error Darwin 15.6.0
+76 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+77 error node v4.4.0
+78 error npm  v2.14.20
+79 error code ETARGET
+80 error notarget No compatible version found: jmui@'>=0.14.7 <0.15.0'
+80 error notarget Valid install targets:
+80 error notarget ["0.1.3","0.1.4","0.1.5","0.1.6","0.1.7","0.1.8"]
+80 error notarget
+80 error notarget This is most likely not a problem with npm itself.
+80 error notarget In most cases you or one of your dependencies are requesting
+80 error notarget a package version that doesn't exist.
+80 error notarget
+80 error notarget It was specified as a dependency of 'use-react'
+81 verbose exit [ 1, true ]

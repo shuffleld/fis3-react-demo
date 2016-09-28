@@ -30,12 +30,19 @@ fis.match('*.{png,jpeg}',{
 /*
   模块式开发  &&  react
 */
-
-fis.match('/components/**.js', {
-    isMod: true
+// 采用 commonjs 模块化方案。
+fis.hook('commonjs', {
+  baseUrl: './node_modules',
+  extList: ['.js', '.jsx', '.css', '.less']
 });
-
-fis.hook('commonjs');
+// fis.match('/components/**.js', {
+//     isMod: true
+// });
+fis.match('/{node_modules,modules}/**.{js,jsx,css,less}', {
+  isMod: true
+});
+fis.unhook('components'); // fis3 中预设的是 fis-components，这里不需要，所以先关了。
+fis.hook('node_modules');
 
 fis.match('::package', {
     postpackager: fis.plugin('loader')

@@ -1,7 +1,9 @@
-import ReactDOM from 'react-dom';
 import React from 'react';
+import ReactDOM from 'react-dom';
 import $ from 'jquery';
-
+import { Button, Icon, Row, Col ,Card} from 'antd';
+// import 'antd/dist/antd.less';
+// import 'common/lib/lib.js';
 let App = React.createClass({
   getInitialState() {
     return {
@@ -22,24 +24,37 @@ let App = React.createClass({
 
     return (
       <div>
+        <Button type="primary">Primary</Button>
+        <Button>Default</Button>
+        <Button type="ghost">Ghost</Button>
+
       <div className="nav">
-        <div className="top_nav">
-            ---------------------
-        </div>
+      <Row>
+        <Col span={12}><Button type="primary">Primary</Button></Col>
+        <Col span={6}><Button type="dashed">Dashed</Button></Col>
+        <Col span={6}><Button>Default</Button></Col>
+      </Row>
         <div className="bottom_nav">
           *******************
         </div>
       </div>
       <div className="app_content">
         <h1>
-          wowoowowowow
+          <Icon type="meh" /><Icon type="github" />
         </h1>
         <span className="bg_1"></span>
         <span className="bg_2"></span>
+
       </div>
+
+         <Card title="Card title" bordered={false}>
+          <p>Card content</p>
+          <p>Card content</p>
+          <p>Card content</p>
+        </Card>
       </div>
     )
   }
 });
-
-ReactDOM.render(<App />, document.getElementById('app-content'))
+// ReactDOM.render(<DatePicker />, mountNode);
+ ReactDOM.render(<App />, document.getElementById('app-content'));
